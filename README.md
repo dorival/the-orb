@@ -1,6 +1,6 @@
 # The Orb
 
-![The Orb](public/image/orb.png "The Orb")
+![The Orb](site/image/orb.png "The Orb")
 
 The Orb distribute things to places in a random manner but keeping it as even as possible. There is nothing special in this application except it allows the whomever is running to make a show of it.
 
@@ -10,3 +10,6 @@ The need for this software came from one camp event, where they want to distribu
 Moreover, they wanted to make a show of this, like the **Selector Hat** from Harry Potter®, where one participant after another goes in front of everyone and gets "selected". The showmen can drive the software or allow the participant to do so.
 
 The main goal is to project the screen for everyone to see. A big customizable image and/or a text will display as people are chosen.
+
+## How to Compile
+To run in develpoment mode, ensure you have **Yarn** installed, then `yarn start`
