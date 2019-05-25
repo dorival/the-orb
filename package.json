@@ -1,0 +1,14 @@
+{
+  "name": "the-orb",
+  "version": "1.0.0",
+  "description": "The Orb distribute things to places in a random manner but keeping those places filled as even as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dorival Neto",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.2"
+  }
+}
