@@ -8722,6 +8722,11 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
+react-suspense@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-suspense/-/react-suspense-0.1.0.tgz#cec6c688f1596b5cf45a3d587d69f67163439088"
+  integrity sha512-Px2UqArOqCQ2yc9CqM8oHvlHHi3HJ063bDndHgOG4C0RsUEqECI0S0mPtNOBKmNYBWhcbkUyV/CAOKK3JM3qPg==
+
 react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"

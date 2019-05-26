@@ -8,7 +8,6 @@ const fs = require('fs');
 const basePath = `${app.getPath("documents")}\\Orb`;
 
 export function fetchSession(sessionKey: string): any {
-  alert("trying to read file");
   let rawdata = fs.readFileSync(`${basePath}\\${sessionKey}\\session.json`);
   let json = JSON.parse(rawdata);
 
@@ -17,17 +16,18 @@ export function fetchSession(sessionKey: string): any {
 
 export function listAll() {
 
-  fs.readdir(basePath, (err: any, files: any[]) => {
-    files.forEach(file => {
-      console.log(file);
-    });
-  });
+  let sessions: {name: String, open: Boolean}[] = [];
 
-  return [
-    { "name": "fc-2020", "open": true},
-    { "name": "fc-2019", "open": true},
-    { "name": "fc-2018", "open": false},
-    { "name": "fc-2017", "open": false},
-    { "name": "fc-2016", "open": false},
-  ];
+  try {
+    const basePath = `${app.getPath("documents")}\\Orb`;
+    let files = fs.readdirSync(basePath);
+    //alert(files);
+    files.forEach((file: String) => {
+      
+      sessions.push({ name: file, open: true });
+    });
+
+  } catch (error) {}
+
+  return sessions;
 }

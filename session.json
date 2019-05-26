@@ -1,0 +1,13 @@
+{ 
+  "open": true,
+  "places": ["Box 1", "Box 2", "Box 3", "Box 4"],
+  "currentAssignmentIndex": 0,
+  "assignmentCount": 57,
+  "assignment": [
+    {
+      "place": "Box 1",
+      "assignmentDateTime": "",
+      "metadata": { }
+    }
+  ]
+}
