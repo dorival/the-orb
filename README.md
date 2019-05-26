@@ -7,9 +7,9 @@ The Orb distribute things to places in a random manner but keeping it as even as
 ## Why this?
 The need for this software came from one camp event, where they want to distribute their participants into "houses", so they can run a camp-wide game.
 
-Moreover, they wanted to make a show of this, like the **Selector Hat** from Harry Potter®, where one participant after another goes in front of everyone and gets "selected". The showmen can drive the software or allow the participant to do so.
+Moreover, they wanted to make a show of this, like the **Sorting Hat** from Harry Potter®, where one participant after another goes in front of everyone and gets *sorted*. The showmen can drive the software or allow the participant to do so.
 
 The main goal is to project the screen for everyone to see. A big customizable image and/or a text will display as people are chosen.
 
 ## How to Compile
-To run in develpoment mode, ensure you have **Yarn** installed, then `yarn start`
+To run in development mode, ensure you have **Yarn** installed, then `yarn start`
