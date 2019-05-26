@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "license": "MIT",
   "description": "The Orb distribute things to places in a random manner but keeping those places filled as even as possible.",
-  "keywords": ["electron", "react", "typescript", "sort", "customize"],
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "sort",
+    "customize"
+  ],
   "bugs": "https://github.com/dorival/the-orb/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dorival/the-orb.git" },
+    "url": "https://github.com/dorival/the-orb.git"
+  },
   "author": {
     "name": "Dorival Neto",
     "email": "dorival@live.ca",
@@ -15,6 +22,7 @@
   },
   "main": "public/electron.js",
   "dependencies": {
+    "@craco/craco": "^5.2.1",
     "@types/jest": "24.0.13",
     "@types/node": "12.0.2",
     "@types/react": "16.8.18",
@@ -37,9 +45,9 @@
     "release": "yarn react-build && electron-builder --publish=always",
     "build": "yarn react-build && yarn electron-build",
     "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
-    "react-start": "react-scripts start",
-    "react-build": "react-scripts build",
-    "react-test": "react-scripts test",
+    "react-start": "craco start",
+    "react-build": "craco build",
+    "react-test": "craco test",
     "react-eject": "react-scripts eject"
   },
   "homepage": "./",
